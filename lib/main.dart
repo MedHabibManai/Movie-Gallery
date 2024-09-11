@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:testlearn/movie_provider.dart';
-import 'package:testlearn/ActorProvider.dart';
-import 'package:testlearn/ReviewProvider.dart';
-import 'Widgets.dart';
-import 'models.dart';
-import 'HomePage.dart';
+import 'package:testlearn/Providers/movie_provider.dart';
+import 'package:testlearn/Providers/actor_provider.dart';
+import 'package:testlearn/Providers/review_provider.dart';
+import 'package:testlearn/HomePage.dart';
 
 void main() {
   runApp(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'Widgets.dart';
-import 'models.dart';
+import 'package:testlearn/Models/list_item.dart';
+import 'package:testlearn/Widgets/movie_grid.dart';
+
 
 class HomePage extends StatefulWidget {
   @override

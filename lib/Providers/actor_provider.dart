@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'models.dart'; // Assuming your models are defined in this file
-
+import 'package:testlearn/Models/actor.dart';
+import 'package:testlearn/Models/movie.dart';
 class ActorProvider with ChangeNotifier {
   final String apiKey = '831c22f29f0fdfae6b59f84bba2cf263';
   List<Actor> _actors = [];

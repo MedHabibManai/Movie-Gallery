@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter_youtube_view/flutter_youtube_view.dart';
 import 'dart:convert';
-import 'models.dart'; // Assuming your models are defined in this file
+import 'package:testlearn/Models/video.dart';
+
 
 class VideoProvider with ChangeNotifier {
   List<Video> _videos = [];
